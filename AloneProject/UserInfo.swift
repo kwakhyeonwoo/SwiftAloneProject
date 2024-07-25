@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct UserInfo : View{
+    
+    @State fileprivate var listView : String = ""
+    
     var body: some View{
         NavigationView{
             VStack{
