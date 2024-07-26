@@ -15,6 +15,8 @@
 		67F6FE7B2C521B44000610B2 /* AloneProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F6FE7A2C521B44000610B2 /* AloneProjectUITests.swift */; };
 		67F6FE7D2C521B44000610B2 /* AloneProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F6FE7C2C521B44000610B2 /* AloneProjectUITestsLaunchTests.swift */; };
 		67F6FE8A2C523577000610B2 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F6FE892C523577000610B2 /* UserInfo.swift */; };
+		67F6FEC22C5363E3000610B2 /* UserSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F6FEC12C5363E3000610B2 /* UserSetting.swift */; };
+		67F6FEC42C5363EC000610B2 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F6FEC32C5363EC000610B2 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		67F6FE7A2C521B44000610B2 /* AloneProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AloneProjectUITests.swift; sourceTree = "<group>"; };
 		67F6FE7C2C521B44000610B2 /* AloneProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AloneProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		67F6FE892C523577000610B2 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		67F6FEC12C5363E3000610B2 /* UserSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSetting.swift; sourceTree = "<group>"; };
+		67F6FEC32C5363EC000610B2 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				67F6FE632C521B43000610B2 /* Assets.xcassets */,
 				67F6FE652C521B43000610B2 /* Preview Content */,
 				67F6FE892C523577000610B2 /* UserInfo.swift */,
+				67F6FEC12C5363E3000610B2 /* UserSetting.swift */,
+				67F6FEC32C5363EC000610B2 /* ListView.swift */,
 			);
 			path = AloneProject;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				67F6FE622C521B41000610B2 /* ContentView.swift in Sources */,
+				67F6FEC22C5363E3000610B2 /* UserSetting.swift in Sources */,
+				67F6FEC42C5363EC000610B2 /* ListView.swift in Sources */,
 				67F6FE8A2C523577000610B2 /* UserInfo.swift in Sources */,
 				67F6FE602C521B41000610B2 /* AloneProjectApp.swift in Sources */,
 			);
