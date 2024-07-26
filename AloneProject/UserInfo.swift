@@ -14,18 +14,14 @@ struct UserInfo : View{
             VStack{
                 Text("개인 정보")
                 HStack(alignment: .top){
-                    NavigationLink(destination: {
-                        
-                    }, label: {
+                    NavigationLink(destination: ListView(), label: {
                         Image(systemName: "list.bullet")
                             .font(.system(size: 30))
                             
                     })
                     Spacer()
                     
-                    NavigationLink(destination: {
-                        
-                    }, label: {
+                    NavigationLink(destination: UserSetting(), label: {
                         Image(systemName: "person.crop.circle.fill")
                             .font(.system(size: 30))
                     })
