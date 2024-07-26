@@ -11,6 +11,7 @@ struct ListView : View {
     
     @State fileprivate var UserSetting : Bool = true
     @State fileprivate var UserInfo : Bool = false
+    @State fileprivate var UserNumber : Bool = false
     
     var body: some View{
         
@@ -36,6 +37,15 @@ struct ListView : View {
                         HStack{
                             Text("Section 값 : \(indexNumber)")
                         }
+                    }
+                }
+                Section(header: Text("세번째 파트")
+                    .foregroundColor(.black)
+                    .font(.system(size: 30))
+                    .fontWeight(.bold)
+                ){
+                    Toggle(isOn: $UserNumber){
+                        Label("flag", systemImage: "flag.fill")
                     }
                 }
             }
